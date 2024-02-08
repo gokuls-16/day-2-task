@@ -1,0 +1,51 @@
+1.Document Object
+
+* the document object is the HTML document that appears in the browser window and server as an interface for interacting with the web pages content.
+* the W3C DOM( Document Object Model) is a platform neutral interface that enables dynamic access and updating of a documents content.
+*It represents the document loaded inside the window or browser.
+* The properties related to it are stored in the document object.
+* Document object after the loading window because the window contains a object.
+* Its root element of the document  object model.
+* Its an object of window.
+* We can not access window objects properties inside the document.
+* logically:
+      
+      document:{
+    properties }
+
+* example,
+
+     document.title
+     will return the title of the document 
+
+ * properties 
+
+   document.createElement // crate an HTML element.    
+
+  2. Window  object 
+   
+ * the window object is a  global object in client side java script,representing the browser window containing a DOM document and acting as the root of the document object model.
+ * the window object supported by all browsers,window and automatically includes global js objects,functions,and variable as members.
+ * It represents the browser window in which you are seeing the content.
+ * the properties related to it are stored in the window object 
+ * Its loaded before the document because window container document.
+ * The window is the global for all objects,functions,etc.
+ * Its an Object of the browser
+ * We can access the document object properties inside the window.
+ * logically:
+     
+     window:{
+        document:
+       {properties}
+            }
+
+  properties
+
+     Window.open()
+     window.close()
+
+  Methods,
+
+     window.innerHeight
+     window.innerWidth
+
